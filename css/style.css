@@ -53,7 +53,7 @@ p{
 
 .menu {
     font-size: smaller;
-    overflow: scroll;
+    overflow: auto;
 }
 
 
@@ -76,7 +76,6 @@ p{
 @media screen and (min-width: 64em){
     .menu {
         font-size: medium;
-        overflow: hidden;
     }
     .container{
         padding: 20px 25%;
